@@ -235,5 +235,18 @@ input[type=submit] {
   container {
     width: 600px;
   }
+  #masthead {
+    position: static;
+  }
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
 }
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
