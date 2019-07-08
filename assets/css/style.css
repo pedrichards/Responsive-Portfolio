@@ -217,27 +217,29 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  /* The body's bg color will be #333 */
+
   container {
     width: 748px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
+
   container {
     width: 620px;
   }
 }
 
 @media screen and (max-width: 640px) {
-  /* The body's bg color will be #333 */
   container {
     width: 600px;
   }
+  
   #masthead {
     position: static;
+    margin-bottom: 10px;
   }
+  
   #logo {
     width: 100%;
   }
@@ -246,6 +248,10 @@ input[type=submit] {
     float: none;
     text-align: center;
     width: 100%;
+  }
+
+  #main-container {
+    padding-top: 0px;
   }
 }
 
